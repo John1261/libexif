@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'libexif'
   s.version          = '0.6.21'
-  s.summary          = 'media exif tool for iOS'
+  s.summary          = 'exif tool for iOS'
 
   s.description      = <<-DESC
 media exif tool for iOS
@@ -15,6 +15,6 @@ media exif tool for iOS
   s.ios.deployment_target = '7.0'
 
   s.source_files = 'libexif/libexif/*.framework/Headers/*.h'
-  s.ios.vendored_libraries = 'libexif/libexif/*.framework'
+  s.ios.vendored_frameworks = 'libexif/libexif/*.framework'
 
 end
