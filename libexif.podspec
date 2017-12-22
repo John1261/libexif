@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'libexif'
-  s.version          = '0.6.21'
+  s.version          = '0.6.21.1'
   s.summary          = 'exif tool for iOS'
 
   s.description      = <<-DESC

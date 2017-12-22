@@ -13,7 +13,7 @@
 		527487E61F45308E005ABB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527487E41F45308E005ABB50 /* Main.storyboard */; };
 		527487E81F45308E005ABB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527487E71F45308E005ABB50 /* Assets.xcassets */; };
 		527487EB1F45308E005ABB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527487E91F45308E005ABB50 /* LaunchScreen.storyboard */; };
-		527487F41F4530A9005ABB50 /* libexif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527487F31F4530A9005ABB50 /* libexif.framework */; };
+		528755371FECDBA900AAB07F /* libexif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528755361FECDBA800AAB07F /* libexif.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		527487E71F45308E005ABB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527487EA1F45308E005ABB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		527487EC1F45308E005ABB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		527487F31F4530A9005ABB50 /* libexif.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libexif.framework; sourceTree = "<group>"; };
+		528755361FECDBA800AAB07F /* libexif.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libexif.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527487F41F4530A9005ABB50 /* libexif.framework in Frameworks */,
+				528755371FECDBA900AAB07F /* libexif.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		527487F21F4530A9005ABB50 /* libexif */ = {
 			isa = PBXGroup;
 			children = (
-				527487F31F4530A9005ABB50 /* libexif.framework */,
+				528755361FECDBA800AAB07F /* libexif.framework */,
 			);
 			path = libexif;
 			sourceTree = "<group>";
@@ -328,6 +328,7 @@
 				527487F11F45308E005ABB50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
